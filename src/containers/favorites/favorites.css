@@ -1,0 +1,10 @@
+.favorite-container {
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

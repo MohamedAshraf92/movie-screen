@@ -1,0 +1,143 @@
+.cards-container-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home-tabs {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: flex-start;
+}
+
+.tab-item {
+  color: #919191;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 5px solid transparent;
+}
+
+.tab-item-active {
+  color: white;
+  border-bottom: 3px solid #fc882f;
+}
+
+.seperator {
+  color: #fc882f;
+  font-size: 1.5rem;
+  margin-inline: 30px;
+}
+
+.cards-container {
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.load-btn {
+  width: 90%;
+  height: 50px;
+  color: #919191;
+  background: linear-gradient(to bottom, #232526, #414345);
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.load-btn:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.load-btn-loading {
+  width: 90%;
+  height: 50px;
+  color: #919191;
+  background: linear-gradient(to bottom, #232526, #414345);
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+}
+
+.load-btn-loading img {
+  height: 70%;
+  margin: auto;
+  display: block;
+}
+
+.spinner-container {
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.spinner {
+  animation: rotation 2s infinite linear;
+}
+
+.spinner-container h1 {
+  color: white;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .tab-item {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .seperator {
+    margin-inline: 15px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .tab-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .seperator {
+    margin-inline: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .tab-item {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .seperator {
+    margin-inline: 15px;
+    font-size: 0.8rem;
+  }
+}

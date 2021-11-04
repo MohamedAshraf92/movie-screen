@@ -1,0 +1,29 @@
+.search-result-card {
+  width: 23%;
+  margin-inline: 1%;
+  height: 0;
+  padding-bottom: 35%;
+  margin-bottom: 15px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.result-release-date {
+  font-size: 0.8rem;
+  color: #c0c0c0;
+  margin-bottom: 5px;
+}
+
+.result-movie-title {
+  font-size: 0.9rem;
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+}

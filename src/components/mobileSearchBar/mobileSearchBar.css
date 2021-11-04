@@ -1,0 +1,25 @@
+.mobile-search-wrapper {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 20%;
+}
+
+.mobile-search-bar {
+  display: block;
+  height: 42px;
+  width: 450%;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  background-color: #131218;
+  border-radius: 30px;
+}
+
+@media (max-width: 600px) {
+  .mobile-search-wrapper {
+    display: flex;
+  }
+}
